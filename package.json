@@ -1,0 +1,19 @@
+{
+  "name": "not-lodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgeniyKotin/not-lodash.git"
+  },
+  "author": "Evgeniy Kotin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniyKotin/not-lodash/issues"
+  },
+  "homepage": "https://github.com/EvgeniyKotin/not-lodash#readme"
+}
