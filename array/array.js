@@ -1,7 +1,13 @@
 const _ = module.exports = {}
 
 _.chank = function(array, size) {
-    if(!size) {
+    if(!(array instanceof Array)) {
+        return []
+    }
+    if(!size || size > array.length) {
+        return array
+    }
+    if(Math.floor(size) !== size) {
         return array
     }
     let result = [];
@@ -10,10 +16,10 @@ _.chank = function(array, size) {
         let chank = [];
         for(let j = 0; j < size; j++) {  
             if(i * size + j < array.length){
-                chank.push(array[i * size + j]);
+                chank.push(array[i * size + j])
             }                      
         }
-        result.push(chank);
+        result.push(chank)
     }
-    return result;
+    return result
 }
