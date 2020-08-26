@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/EvgeniyKotin/not-lodash/issues"
   },
-  "homepage": "https://github.com/EvgeniyKotin/not-lodash#readme"
+  "homepage": "https://github.com/EvgeniyKotin/not-lodash#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.1.2"
+  }
 }
